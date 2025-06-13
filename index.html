@@ -197,7 +197,7 @@
                 </div>
 
             <!-- bottom -->
-             <div class="swiper h-50">
+             <div class="swiper mySwiper h-50">
 
                 <div class="swiper-wrapper flex  md:flex-row justify-center gap-4 mt-10 pl-5 ">
                     
@@ -314,7 +314,7 @@
             </div>
 
             <!-- categories -->
-             <div class="swiper h-90">
+             <div class="swiper mySwiper h-50">
                 <div class="flex swiper-wrapper md:flex-cols-6 items-center gap-2 ">
 
                 <div class="swiper-slide w-[200px] h-[250px] rounded-xl transition animate-fade-in-right">
@@ -383,11 +383,20 @@
 
 <!-- swiper -->
  <script>
-  new Swiper('.swiper', {
-    direction: 'vertical',
+  new Swiper('.mySwiper', {
+    slidesPerView: 3,
+    spaceBetween: 20,
     loop: true,
     autoplay: {
-      delay: 2000,
+      delay: 3000,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
     },
   });
 </script>
