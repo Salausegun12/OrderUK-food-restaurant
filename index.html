@@ -60,7 +60,7 @@
      <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
      <!-- favicon -->
-      <link rel="shortcut icon" href="/img/LOGO 1.png" type="image/x-icon">
+      <link rel="shortcut icon" href="/img/orer.uk favicon.PNG" type="image/x-icon">
 
 </head>
 <body>
@@ -144,31 +144,65 @@
 
     <!-- Banner section -->
  
-    <section class="w-full mx-auto">
-        <div class="mx-auto max-w-7xl flex justify-between items-center transition-all bg-[#03081F] md:bg-gray-50 border-2 rounded-2xl overflow-hidden gap-0 overflow-hidden">
-            <!-- banner-content -->
-            <div class="p-5 items-center text-white md:text-gray-900 m-2 md:m-0">
-                <div class="animate-fade-in-down duration-300">
-                    <p class="text-lg font-medium">Order Restaurant food, takeaway and groceries.</p>
-                    <h1 class="text-4xl font-bold mt-5 mb-10">Feast Your Senses, <br> <span class="text-orange-500">Fast and Fresh</span></h1>
-                </div>
+    <section class=" w-full">
+  <div class="max-w-7xl mx-auto bg-gray-100 pl-6 pt-6 flex flex-col lg:flex-row items-center gap-10 relative rounded-2xl border-2 ">
+    
+    <!-- LEFT SECTION -->
+    <div class="flex-1 text-left">
+      <p class="text-sm text-gray-500">Order Restaurant food, takeaway and groceries.</p>
+      <h1 class="text-4xl font-bold mt-4 text-gray-900">
+        Feast Your Senses, <br>
+        <span class="text-orange-500">Fast and Fresh</span>
+      </h1>
+      <p class="text-sm text-gray-500 mt-4">Enter a postcode to see what we deliver</p>
+      <div class="flex items-center mt-4 gap-2">
+        <input type="text" placeholder="e.g. EC4R 3TE"
+               class="px-4 py-2 border rounded-full w-2/3 focus:outline-none " />
+        <button class="bg-orange-500 text-white px-6 py-2 rounded-full hover:bg-orange-600 transform -translate-x-12">Search</button>
+      </div>
+    </div>
 
-                <div class="animate-fade-in-right duration-300">
-                    <p>Enter a postcode to see what we deliver</p>
-                    <form action="#" class="mt-4">
-                        <input type="text" placeholder="e.g. EC4R 3TE" class="border focus:outline-none py-3 px-7 rounded-3xl"> <button type="submit" class="border bg-orange-500 text-white px-3 py-2 rounded-3xl absolute transform -translate-x-14"><i class="fa-solid fa-angles-right p-2 rounded-full"></i></button>
-                    </form>
-                </div>
-            </div>
+    <!-- CENTER IMAGE -->
+    <div class="relative z-10 hidden lg:block">
+      <img src="/img/banner img1.png" alt="Girl eating pizza" class=" lg:w-[350px]" />
+    </div>
 
-             <!-- banner img -->
-            <div class="hidden md:flex  transition-all">
-                <div class=" animate-fade-in-up duration-300 ">
-                    <img src="/img/banner image for order.uk.PNG" alt="">
-                </div>
-            </div>
+    <!-- RIGHT SECTION -->
+    <div class="flex-1 hidden relative lg:block bg-orange-500 w-2/3 h-[450px] rounded-tl-[100px] text-ce">
+      
+      <!-- Notification Cards -->
+      <div class="space-y-2 pl-10 pt-4 relative">
+        <!-- Card 1 -->
+        <div class="bg-white shadow-lg rounded-lg p-4">
+          <img src="/img/LOGO 2.png" alt="" class="py-1">
+          <p class="text-sm text-gray-600">We've received your order! <br> Awaiting Restaurant acceptance 🍕🧃</p>
+          <span class="text-xs text-gray-400">now</span>
         </div>
-    </section>
+
+        <!-- Card 2 -->
+        <div class="bg-white shadow-lg rounded-lg p-4 ">
+          <img src="/img/LOGO 2.png" alt="" class="py-1">
+          <p class="text-sm text-gray-600">Order Accepted ✅ <br> Your order will be delivered shortly</p>
+          <span class="text-xs text-gray-400">now</span>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white shadow-lg rounded-lg p-4">
+          <img src="/img/LOGO 2.png" alt="" class="py-1">
+          <p class="text-sm text-gray-600">Your rider’s nearby 🎉 <br> They’re almost there – get ready!</p>
+          <span class="text-xs text-gray-400">now</span>
+        </div>
+      </div>
+
+      <!-- Steps 1, 2, 3 -->
+      <div class="absolute top-6 right-6 text-orange-500 text-4xl font-bold space-y-24">
+        <div>1</div>
+        <div class="mt-[60px]">2</div>
+        <div class="mt-[60px]">3</div>
+      </div>
+    </div>
+  </div>
+</section>
 
     <!-- Exclusive deals Section -->
      <section class="w-full mt-2">
@@ -193,16 +227,16 @@
 
             <div class="flex md:hidden px-3 justify-between gap-1 my-4">
                     <div><p class="text-xl font-semibold ">Up to -40% Discount Offers 🎊 </p></div>
-                    <div><button class="py-2 px-3 border border-2 border-gray-400 space-x-2 rounded-3xl"><i class="fa-solid fa-angles-down"></i> <span class="font-medium">Fast Food</span></button></div>
-                </div>
+                    <div><button class="py-2 px-3 border border-2 border-gray-400 space-x-2 rounded-3xl"><i class="fa-solid fa-angles-down"></i> <span class="font-medium">Foods</span></button></div>
+            </div>
 
             <!-- bottom -->
-             <div class="swiper mySwiper h-50">
+             <div class="swiper mySwiper h-90 md:block">
 
-                <div class="swiper-wrapper flex  md:flex-row justify-center gap-4 mt-10 pl-5 ">
+                <div class="swiper-wrapper flex md:flex-row justify-center gap-4 mt-10 pl-5 ">
                     
                     <div class=" swiper-slide relative w-[350px] h-[250px] rounded-lg overflow-hidden shadow-lg mx-auto">
-                    <img src="/img/Rectangle 8.png" alt="" class="w-full h-full object cover">
+                    <img src="/img/Rectangle 8.png" alt="" class="w-full h-full object-cover">
                     <div class="absolute inset-0 bg-gradient-to-r from-black/60 via-black/20 to-transparent"></div>
                     <div class="absolute top-0 right-2 bg-[#0F0F0F] text-white text-lg font-semibold px-3 py-3 rounded-b-xl animate-bounce-slow duration-300">-40%</div>
                     <div class="absolute bottom-3 left-3 text-white">
@@ -212,7 +246,7 @@
                 </div>
 
                 <div class="swiper-slide relative w-[350px] h-[250px] rounded-lg overflow-hidden shadow-lg mx-auto">
-                    <img src="/img/Rectangle 8 (1).png" alt="" class="w-full h-full object cover">
+                    <img src="/img/Rectangle 8 (1).png" alt="" class="w-full h-full object-cover">
                     <div class="absolute inset-0 bg-gradient-to-r from-black/60 via-black/20 to-transparent"></div>
                     <div class="absolute top-0 right-2 bg-[#0F0F0F] text-white text-lg font-semibold px-3 py-3 rounded-b-xl animate-bounce-slow duration-300">-20%</div>
                     <div class="absolute bottom-3 left-3 text-white">
@@ -222,7 +256,7 @@
                 </div>
 
                 <div class=" swiper-slide relative w-[350px] h-[250px] rounded-lg overflow-hidden shadow-lg mx-auto">
-                    <img src="/img/Rectangle 8.png" alt="" class="w-full h-full object cover">
+                    <img src="/img/Rectangle 8.png" alt="" class="w-full h-full object-cover">
                     <div class="absolute inset-0 bg-gradient-to-r from-black/60 via-black/20 to-transparent"></div>
                     <div class="absolute top-0 right-2 bg-[#0F0F0F] text-white text-lg font-semibold px-3 py-3 rounded-b-xl animate-bounce-slow duration-300">-17%</div>
                     <div class="absolute bottom-3 left-3 text-white">
@@ -230,7 +264,47 @@
                         <h3 class="text-lg font-semibold">Butterbrot Caf’e London</h3>
                     </div>
                 </div>
+
+                <div class="swiper-slide relative w-[350px] h-[250px] rounded-lg overflow-hidden shadow-lg mx-auto">
+                    <img src="/img/Rectangle 13.png" alt="" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-r from-black/60 via-black/20 to-transparent"></div>
+                    <div class="absolute top-0 right-2 bg-[#0F0F0F] text-white text-lg font-semibold px-3 py-3 rounded-b-xl animate-bounce-slow duration-300">-40%</div>
+                    <div class="absolute bottom-3 left-3 text-white">
+                        <p class="text-orange-400">Restaurant</p>
+                        <h3 class="text-lg font-semibold">Cafe London</h3>
+                    </div>
                 </div>
+
+                <div class="swiper-slide relative w-[350px] h-[250px] rounded-lg overflow-hidden shadow-lg mx-auto">
+                    <img src="/img/Rectangle 21.png" alt="" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-r from-black/60 via-black/20 to-transparent"></div>
+                    <div class="absolute top-0 right-2 bg-[#0F0F0F] text-white text-lg font-semibold px-3 py-3 rounded-b-xl animate-bounce-slow duration-300">-20%</div>
+                    <div class="absolute bottom-3 left-3 text-white">
+                        <p class="text-orange-400">Restaurant</p>
+                        <h3 class="text-lg font-semibold">Food Recipe</h3>
+                    </div>
+                </div>
+
+                <div class="swiper-slide relative w-[350px] h-[250px] rounded-lg overflow-hidden shadow-lg mx-auto">
+                    <img src="/img/Rectangle 23.png" alt="" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-r from-black/60 via-black/20 to-transparent"></div>
+                    <div class="absolute top-0 right-2 bg-[#0F0F0F] text-white text-lg font-semibold px-3 py-3 rounded-b-xl animate-bounce-slow duration-300">-20%</div>
+                    <div class="absolute bottom-3 left-3 text-white">
+                        <p class="text-orange-400">Restaurant</p>
+                        <h3 class="text-lg font-semibold">London Grand Ai Cafe </h3>
+                    </div>
+                </div>
+
+                <div class="swiper-slide relative w-[350px] h-[250px] rounded-lg overflow-hidden shadow-lg mx-auto">
+                    <img src="/img/Rectangle 8 (1).png" alt="" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-r from-black/60 via-black/20 to-transparent"></div>
+                    <div class="absolute top-0 right-2 bg-[#0F0F0F] text-white text-lg font-semibold px-3 py-3 rounded-b-xl animate-bounce-slow duration-300">-25%</div>
+                    <div class="absolute bottom-3 left-3 text-white">
+                        <p class="text-orange-400">Restaurant</p>
+                        <h3 class="text-lg font-semibold">Grand Ai London Cafe</h3>
+                    </div>
+                </div>
+            </div>
 
                 
              </div>
@@ -314,57 +388,57 @@
             </div>
 
             <!-- categories -->
-             <div class="swiper mySwiper h-50">
+             <div class="swiper mySwiper h-80">
                 <div class="flex swiper-wrapper md:flex-cols-6 items-center gap-2 ">
 
-                <div class="swiper-slide w-[200px] h-[250px] rounded-xl transition animate-fade-in-right">
+                <div class="swiper-slide rounded-xl transition animate-fade-in-right">
                     <div class="animate-pulse-slow" style="animation-delay: 0.5s;">
-                        <img src="/img/Rectangle 13 (6).png" alt="" class="w-full h-full">
+                        <img src="/img/Rectangle 13 (6).png" alt="" class="w-30 h-30">
                     </div>
                     <div class="text-center bg-orange-500 rounded-b-xl">
                         <p class="font-semibold py-2 text-white">McDonald’s London</p>
                     </div>
                 </div>
 
-                <div class="swiper-slide w-[200px] h-[250px] rounded-xl transition animate-fade-in-up">
+                <div class="swiper-slide rounded-xl transition animate-fade-in-up">
                     <div class="animate-pulse-slow" style="animation-delay: 0.9s;">
-                        <img src="/img/Rectangle 13 (5).png" alt="" class="w-full h-full">
+                        <img src="/img/Rectangle 13 (5).png" alt="" class="w-30 h-30">
                     </div>
                     <div class="text-center bg-orange-500 rounded-b-xl">
                         <p class="font-semibold py-2 text-white">Papa Johns</p>
                     </div>
                 </div>
 
-                <div class="swiper-slide w-[200px] h-[250px] rounded-xl transition animate-fade-in-right">
+                <div class="swiper-slide rounded-xl transition animate-fade-in-right">
                     <div class="animate-pulse-slow" style="animation-delay: 1.3s;">
-                        <img src="/img/Rectangle 13 (1).png" alt="" class="w-full h-full">
+                        <img src="/img/Rectangle 13 (1).png" alt="" class="w-30 h-30">
                     </div>
                     <div class="text-center bg-orange-500 rounded-b-xl">
                         <p class="font-semibold py-2 text-white">KFC West London</p>
                     </div>
                 </div>
 
-                <div class="swiper-slide w-[200px] h-[250px] rounded-xl transition animate-fade-in-up">
+                <div class="swiper-slide rounded-xl transition animate-fade-in-up">
                     <div class="animate-pulse-slow" style="animation-delay: 1.7s;">
-                        <img src="/img/Rectangle 13 (2).png" alt="" class="w-full h-full">
+                        <img src="/img/Rectangle 13 (2).png" alt="" class="w-30 h-30">
                     </div>
                     <div class="text-center bg-orange-500 rounded-b-xl">
                         <p class="font-semibold py-2 text-white">Texas Chicken</p>
                     </div>
                 </div>
 
-                <div class="swiper-slide w-[200px] h-[250px] rounded-xl transition animate-fade-in-right">
+                <div class="swiper-slide rounded-xl transition animate-fade-in-right">
                     <div class="animate-pulse-slow" style="animation-delay: 2.1s;">
-                        <img src="/img/Rectangle 13 (3).png" alt="" class="w-full h-full">
+                        <img src="/img/Rectangle 13 (3).png" alt="" class="w-30 h-30">
                     </div>
                     <div class="text-center bg-orange-500 rounded-b-xl">
                         <p class="font-semibold py-2 text-white">Burger King</p>
                     </div>
                 </div>
 
-                <div class="swiper-slidew-[200px] h-[250px] rounded-xl transition animate-fade-in-up">
+                <div class="swiper-slide rounded-xl transition animate-fade-in-up">
                     <div class="animate-pulse-slow" style="animation-delay: 2.5s;">
-                        <img src="/img/Rectangle 13 (4).png" alt="" class="w-full h-full">
+                        <img src="/img/Rectangle 13 (4).png" alt="" class="w-30 h-30">
                     </div>
                     <div class="text-center bg-orange-500 rounded-b-xl">
                         <p class="font-semibold py-2 text-white">Shaurma 1</p>
@@ -372,22 +446,37 @@
                 </div>
             </div>
 
-             <!-- Pagination (optional) -->
+             <!-- Pagination -->
             <div class="swiper-pagination mt-4"></div>
 
-            <!-- Navigation Arrows (optional) -->
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <!-- Navigation Arrows -->
+            <div class="swiper-button-next bg-white rounded-full p-7"></div>
+            <div class="swiper-button-prev bg-white rounded-full p-7"></div>
                         
         </div>
       </section>
+
+      <!-- OrderUKing section-->
+       <section class="w-full">
+        <div class="mx-auto max-w-7xl flex flex-col-reverse md:flex-row bg-gray-50 items-center rounded-xl">
+            <div class="relative">
+                <img src="/img/friends-laughing-using-mobiles 2 (1).png" alt="" class="w-[700px] h-[600px]">
+            </div>
+            <div class="py-8 px-4">
+                <div class="inline-flex text-5xl font-extrabold text-gray-900 mb-8"><img src="/img/LOGO 1.png" alt="" class="w-25 h-11"><span>ing is more</span></div>
+                <div class="bg-gray-900 px-6 py-4 max-w-md w-full rounded-r-[100px] text-white mb-5 "><p class="text-4xl font-bold"><span class="text-orange-500 underline">Personalised</span> & Instant</p></div>
+                <div class="my-3"><p class="text-lg text-center">Download the Order.uk app for faster ordering</p></div>
+                <div class="w-full mx-auto"><img src="/img/app-store-badges-en 1.png" alt="" class="w-30 h-10"></div>
+            </div>
+        </div>
+       </section>
     
 </body>
 
 <!-- swiper -->
  <script>
   new Swiper('.mySwiper', {
-    slidesPerView: 2,
+    slidesPerView: 5,
     spaceBetween: 10,
     loop: true,
     autoplay: {
